@@ -1,22 +1,24 @@
-# Django React BookStore Application
-
+# Flask Task: Library Management System
 The application is Developed by following Features:
 
 ### Features
 * This software used for Show Book Store
-* Book can be show in single page and add to cart
-* Add Cart all functinality appliyed
-* Customer can be order the cart products
-* Added Dashbord Feature
-* In the Dashborad book list showing
-* In dashboard book can be added, deleted, show single book and order details
+* Book can be create, shown list, update and delete 
+* Application structure:
+- Set up a Flask project with the necessary structured configurations: model, controller, urls, config, app
+* Database Setup:
+- MySQL Use as a SQL database
+- Use SQLAlchemy as the ORM (Object Relational Mapper).
+- Data Validation:
+- Ensure all fields are required for adding a new book.
+*Error Handling:
+- Implement proper error handling: status code added for errors success requests
  
 
 ## Getting Started
 
 ```bash
-python manage.py runserver
-npm start
+flask run
 ```
 
 # Getting Started with django App
@@ -25,52 +27,20 @@ npm start
 * install all requirement.txt file package
 * run the project
 
-# Getting Started with Create React App
-* create React app
-* cd project folde
-* npm start
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-## Available Scripts
-
+# Getting Started with Flask Project
+* create virtual environment
+  ### `virtualenv env`
+* install all requirement
+  ### `python -m pip install -r requirements.txt`
+* statrt Project: In the project directory, you can run:
+### `flask run`
 
 **Progress:**
 Version 1 completed and hosted
 
 ## SCREENSHOTS:**
-
-
 <h2>Home Page</h2>
 <img src="https://github.com/nusratdevo/arena_book_store/blob/main/screen/screen01.png" height="400">
 ---
 
 
-<h2>Product book Page</h2>
-<img src="https://github.com/nusratdevo/arena_book_store/blob/main/screen/screen02.png" height="400">
----
-
-<h2>Cart Page</h2>
-<img src="https://github.com/nusratdevo/arena_book_store/blob/main/screen/screen03.png" height="400">
----
-
-<h2>Dashboard list Page</h2>
-<img src="https://github.com/nusratdevo/arena_book_store/blob/main/screen/screen04.png" height="400">
----
-
-<h2>Add Book Page</h2>
-<img src="https://github.com/nusratdevo/arena_book_store/blob/main/screen/screen05.png" height="400">
----
-
-<h2>Order List Page</h2>
-<img src="https://github.com/nusratdevo/arena_book_store/blob/main/screen/screen06.png" height="400">
----
